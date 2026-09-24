@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KHajistan Express 🚂</title>
+
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #ffd6e7, #ffe9b8);
+      padding: 25px 0;
+    }
+
+    .card {
+      background: white;
+      padding: 35px 25px;
+      border-radius: 25px;
+      width: 85%;
+      max-width: 650px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.15);
+    }
+
+    h1 {
+      font-size: 38px;
+      margin-bottom: 20px;
+    }
+
+    .clue {
+      font-size: 20px;
+      line-height: 1.7;
+      margin: 25px 0;
+    }
+
+    .mission {
+      font-weight: bold;
+      font-size: 21px;
+    }
+
+    .video {
+      margin-top: 30px;
+    }
+
+    iframe {
+      width: 100%;
+      max-width: 560px;
+      height: 315px;
+      border: 0;
+      border-radius: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+
+    <h1>🚂 KHajistan Express</h1>
+
+    <div class="clue">
+      <p>
+        Your next clue is not in the sky,<br>
+        And definitely not where birds fly.
+      </p>
+
+      <p>
+        You’ve got a car, you’ve got the keys,<br>
+        Now search around — but take it with ease.
+      </p>
+
+      <p>
+        Something is waiting, that much is true…
+      </p>
+
+      <p class="mission">
+        Your next mission: find what’s hiding from you. 😈🎁
+      </p>
+    </div>
+
+    <div class="video">
+      <iframe
+        src="https://www.youtube.com/embed/2czL_j16P1A"
+        title="Birthday Surprise"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+  </div>
+
+</body>
+</html>
